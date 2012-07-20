@@ -1,0 +1,14 @@
+<html>
+<head>
+ <title>Showcase</title>
+</head>
+<body>
+ <h1>Home</h1>
+ <h3>Current Projects:</h3>
+ <ul>
+  {% for p in projects %}
+  <li>{{p.title}} - {{p.author}}</li>
+  {% endfor %}
+ </ul>
+</body>
+</html>

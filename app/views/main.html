@@ -7,7 +7,7 @@
  <h3>Current Projects:</h3>
  <ul>
   {% for p in projects %}
-  <li>{{p.title}} - {{p.author}}</li>
+  <li>{{p.title}} - {{p.author}} - <a href="{{p.url}}">Link</a></li>
   {% endfor %}
  </ul>
 </body>
